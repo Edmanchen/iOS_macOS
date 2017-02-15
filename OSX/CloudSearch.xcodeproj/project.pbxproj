@@ -23,6 +23,7 @@
 		536A57F81778EEC600C700DE /* MyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 536A57F71778EEC600C700DE /* MyViewController.m */; };
 		5385092B1C7CD3710029BA74 /* AAPLCloudDocumentsController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5385092A1C7CD3710029BA74 /* AAPLCloudDocumentsController.m */; };
 		5391BC2B1C0D0201005BEC2A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5391BC291C0D0201005BEC2A /* Main.storyboard */; };
+		6C8507C81E5437C700EEE9B1 /* Shared2 in Resources */ = {isa = PBXBuildFile; fileRef = 6C8507C71E5437C700EEE9B1 /* Shared2 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -49,6 +50,7 @@
 		5385092A1C7CD3710029BA74 /* AAPLCloudDocumentsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AAPLCloudDocumentsController.m; path = ../Shared/AAPLCloudDocumentsController.m; sourceTree = "<group>"; };
 		5391BC2A1C0D0201005BEC2A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = CloudSearch/Base.lproj/Main.storyboard; sourceTree = SOURCE_ROOT; };
 		53E64996161E185100ACBD6E /* CloudSearch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CloudSearch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C8507C71E5437C700EEE9B1 /* Shared2 */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Shared2; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +98,7 @@
 				536922311BF66BA3009771B6 /* Shared */,
 				53E649BC161E18A800ACBD6E /* Resources */,
 				53E64997161E185100ACBD6E /* Products */,
+				6C8507C71E5437C700EEE9B1 /* Shared2 */,
 			);
 			sourceTree = "<group>";
 		};
@@ -197,6 +200,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5369223F1BF66CA6009771B6 /* Localizable.strings in Resources */,
+				6C8507C81E5437C700EEE9B1 /* Shared2 in Resources */,
 				5391BC2B1C0D0201005BEC2A /* Main.storyboard in Resources */,
 				5369223D1BF66CA6009771B6 /* Credits.rtf in Resources */,
 				534194F01C123F310094FDB7 /* Text Document3.txt in Resources */,
