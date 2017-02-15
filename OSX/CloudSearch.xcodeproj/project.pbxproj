@@ -23,6 +23,7 @@
 		536A57F81778EEC600C700DE /* MyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 536A57F71778EEC600C700DE /* MyViewController.m */; };
 		5385092B1C7CD3710029BA74 /* AAPLCloudDocumentsController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5385092A1C7CD3710029BA74 /* AAPLCloudDocumentsController.m */; };
 		5391BC2B1C0D0201005BEC2A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5391BC291C0D0201005BEC2A /* Main.storyboard */; };
+		6C8507C31E54329200EEE9B1 /* KMTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C8507C21E54329200EEE9B1 /* KMTest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -49,6 +50,8 @@
 		5385092A1C7CD3710029BA74 /* AAPLCloudDocumentsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AAPLCloudDocumentsController.m; path = ../Shared/AAPLCloudDocumentsController.m; sourceTree = "<group>"; };
 		5391BC2A1C0D0201005BEC2A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = CloudSearch/Base.lproj/Main.storyboard; sourceTree = SOURCE_ROOT; };
 		53E64996161E185100ACBD6E /* CloudSearch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CloudSearch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C8507C11E54329200EEE9B1 /* KMTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KMTest.h; sourceTree = "<group>"; };
+		6C8507C21E54329200EEE9B1 /* KMTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KMTest.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +86,8 @@
 			children = (
 				538509291C7CD3710029BA74 /* AAPLCloudDocumentsController.h */,
 				5385092A1C7CD3710029BA74 /* AAPLCloudDocumentsController.m */,
+				6C8507C11E54329200EEE9B1 /* KMTest.h */,
+				6C8507C21E54329200EEE9B1 /* KMTest.m */,
 			);
 			name = Shared;
 			sourceTree = "<group>";
@@ -238,6 +243,7 @@
 				53454AF017692AF400E5014B /* main.m in Sources */,
 				53454AF117692AF400E5014B /* MyAppDelegate.m in Sources */,
 				536A57F81778EEC600C700DE /* MyViewController.m in Sources */,
+				6C8507C31E54329200EEE9B1 /* KMTest.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
