@@ -24,6 +24,7 @@
 		53E79A171BFA6C7400F82B08 /* Text Document3.txt in Resources */ = {isa = PBXBuildFile; fileRef = 53E79A0F1BFA6C7400F82B08 /* Text Document3.txt */; };
 		53E79A181BFA6C7400F82B08 /* Text Document4.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 53E79A101BFA6C7400F82B08 /* Text Document4.rtf */; };
 		53E79A191BFA6C7400F82B08 /* Video.m4v in Resources */ = {isa = PBXBuildFile; fileRef = 53E79A111BFA6C7400F82B08 /* Video.m4v */; };
+		6C8507CE1E5438E000EEE9B1 /* Test.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C8507CD1E5438DF00EEE9B1 /* Test.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -51,6 +52,8 @@
 		53E79A0F1BFA6C7400F82B08 /* Text Document3.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = "Text Document3.txt"; path = "../Shared/SampleDocs/Text Document3.txt"; sourceTree = "<group>"; };
 		53E79A101BFA6C7400F82B08 /* Text Document4.rtf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.rtf; name = "Text Document4.rtf"; path = "../Shared/SampleDocs/Text Document4.rtf"; sourceTree = "<group>"; };
 		53E79A111BFA6C7400F82B08 /* Video.m4v */ = {isa = PBXFileReference; lastKnownFileType = file; name = Video.m4v; path = ../Shared/SampleDocs/Video.m4v; sourceTree = "<group>"; };
+		6C8507CC1E5438DF00EEE9B1 /* Test.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Test.h; sourceTree = "<group>"; };
+		6C8507CD1E5438DF00EEE9B1 /* Test.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Test.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,6 +117,8 @@
 		53D6CA3C1AD7090300F05766 /* Shared */ = {
 			isa = PBXGroup;
 			children = (
+				6C8507CC1E5438DF00EEE9B1 /* Test.h */,
+				6C8507CD1E5438DF00EEE9B1 /* Test.m */,
 				532909C61AE81D8500EFD5C2 /* AAPLCloudDocumentsController.h */,
 				532909C71AE81D8500EFD5C2 /* AAPLCloudDocumentsController.m */,
 			);
@@ -241,6 +246,7 @@
 				53D6CA291AD705C300F05766 /* main.m in Sources */,
 				5393AB331AE816F6006612A4 /* AAPLFilterViewController.m in Sources */,
 				532909C51AE81CF300EFD5C2 /* AAPLTableViewController.m in Sources */,
+				6C8507CE1E5438E000EEE9B1 /* Test.m in Sources */,
 				532909C41AE81CF300EFD5C2 /* AAPLAppDelegate.m in Sources */,
 				532909C81AE81D8500EFD5C2 /* AAPLCloudDocumentsController.m in Sources */,
 			);
