@@ -24,7 +24,6 @@
 		53E79A171BFA6C7400F82B08 /* Text Document3.txt in Resources */ = {isa = PBXBuildFile; fileRef = 53E79A0F1BFA6C7400F82B08 /* Text Document3.txt */; };
 		53E79A181BFA6C7400F82B08 /* Text Document4.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 53E79A101BFA6C7400F82B08 /* Text Document4.rtf */; };
 		53E79A191BFA6C7400F82B08 /* Video.m4v in Resources */ = {isa = PBXBuildFile; fileRef = 53E79A111BFA6C7400F82B08 /* Video.m4v */; };
-		6C8507CA1E5437D600EEE9B1 /* Shared2 in Resources */ = {isa = PBXBuildFile; fileRef = 6C8507C91E5437D600EEE9B1 /* Shared2 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -52,7 +51,6 @@
 		53E79A0F1BFA6C7400F82B08 /* Text Document3.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = "Text Document3.txt"; path = "../Shared/SampleDocs/Text Document3.txt"; sourceTree = "<group>"; };
 		53E79A101BFA6C7400F82B08 /* Text Document4.rtf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.rtf; name = "Text Document4.rtf"; path = "../Shared/SampleDocs/Text Document4.rtf"; sourceTree = "<group>"; };
 		53E79A111BFA6C7400F82B08 /* Video.m4v */ = {isa = PBXFileReference; lastKnownFileType = file; name = Video.m4v; path = ../Shared/SampleDocs/Video.m4v; sourceTree = "<group>"; };
-		6C8507C91E5437D600EEE9B1 /* Shared2 */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Shared2; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,7 +79,6 @@
 				53AF8AEC0D9C50B700726DBA /* Sources */,
 				29B97317FDCFA39411CA2CEA /* Resources */,
 				19C28FACFE9D520D11CA2CBB /* Products */,
-				6C8507C91E5437D600EEE9B1 /* Shared2 */,
 			);
 			name = CustomTemplate;
 			sourceTree = "<group>";
@@ -204,7 +201,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				530F2F641BF68D410014254E /* LaunchScreen.storyboard in Resources */,
-				6C8507CA1E5437D600EEE9B1 /* Shared2 in Resources */,
 				53D6CA2D1AD7060A00F05766 /* Main.storyboard in Resources */,
 				536B4A951AEEB48F00ACE4AE /* Localizable.strings in Resources */,
 				53E79A171BFA6C7400F82B08 /* Text Document3.txt in Resources */,

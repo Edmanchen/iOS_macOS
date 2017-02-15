@@ -50,7 +50,7 @@
 		5385092A1C7CD3710029BA74 /* AAPLCloudDocumentsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AAPLCloudDocumentsController.m; path = ../Shared/AAPLCloudDocumentsController.m; sourceTree = "<group>"; };
 		5391BC2A1C0D0201005BEC2A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = CloudSearch/Base.lproj/Main.storyboard; sourceTree = SOURCE_ROOT; };
 		53E64996161E185100ACBD6E /* CloudSearch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CloudSearch.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		6C8507C71E5437C700EEE9B1 /* Shared2 */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Shared2; sourceTree = "<group>"; };
+		6C8507C71E5437C700EEE9B1 /* Shared2 */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Shared2; path = /Users/edmanchen/Work/iOS_macOS/iOS_macOS/OSX/Shared2; sourceTree = "<absolute>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,7 +98,6 @@
 				536922311BF66BA3009771B6 /* Shared */,
 				53E649BC161E18A800ACBD6E /* Resources */,
 				53E64997161E185100ACBD6E /* Products */,
-				6C8507C71E5437C700EEE9B1 /* Shared2 */,
 			);
 			sourceTree = "<group>";
 		};
