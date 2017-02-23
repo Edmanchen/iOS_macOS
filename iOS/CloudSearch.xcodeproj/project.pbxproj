@@ -25,6 +25,7 @@
 		53E79A181BFA6C7400F82B08 /* Text Document4.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 53E79A101BFA6C7400F82B08 /* Text Document4.rtf */; };
 		53E79A191BFA6C7400F82B08 /* Video.m4v in Resources */ = {isa = PBXBuildFile; fileRef = 53E79A111BFA6C7400F82B08 /* Video.m4v */; };
 		6C8507CE1E5438E000EEE9B1 /* Test.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C8507CD1E5438DF00EEE9B1 /* Test.m */; };
+		6C8507DA1E543BE000EEE9B1 /* BTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C8507D91E543BE000EEE9B1 /* BTest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -54,6 +55,8 @@
 		53E79A111BFA6C7400F82B08 /* Video.m4v */ = {isa = PBXFileReference; lastKnownFileType = file; name = Video.m4v; path = ../Shared/SampleDocs/Video.m4v; sourceTree = "<group>"; };
 		6C8507CC1E5438DF00EEE9B1 /* Test.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Test.h; sourceTree = "<group>"; };
 		6C8507CD1E5438DF00EEE9B1 /* Test.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Test.m; sourceTree = "<group>"; };
+		6C8507D81E543BE000EEE9B1 /* BTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTest.h; sourceTree = "<group>"; };
+		6C8507D91E543BE000EEE9B1 /* BTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTest.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,6 +124,8 @@
 				6C8507CD1E5438DF00EEE9B1 /* Test.m */,
 				532909C61AE81D8500EFD5C2 /* AAPLCloudDocumentsController.h */,
 				532909C71AE81D8500EFD5C2 /* AAPLCloudDocumentsController.m */,
+				6C8507D81E543BE000EEE9B1 /* BTest.h */,
+				6C8507D91E543BE000EEE9B1 /* BTest.m */,
 			);
 			name = Shared;
 			path = ../Shared;
@@ -248,6 +253,7 @@
 				532909C51AE81CF300EFD5C2 /* AAPLTableViewController.m in Sources */,
 				6C8507CE1E5438E000EEE9B1 /* Test.m in Sources */,
 				532909C41AE81CF300EFD5C2 /* AAPLAppDelegate.m in Sources */,
+				6C8507DA1E543BE000EEE9B1 /* BTest.m in Sources */,
 				532909C81AE81D8500EFD5C2 /* AAPLCloudDocumentsController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

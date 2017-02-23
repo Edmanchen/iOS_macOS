@@ -24,6 +24,9 @@
 		5385092B1C7CD3710029BA74 /* AAPLCloudDocumentsController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5385092A1C7CD3710029BA74 /* AAPLCloudDocumentsController.m */; };
 		5391BC2B1C0D0201005BEC2A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5391BC291C0D0201005BEC2A /* Main.storyboard */; };
 		6C8507C81E5437C700EEE9B1 /* Shared2 in Resources */ = {isa = PBXBuildFile; fileRef = 6C8507C71E5437C700EEE9B1 /* Shared2 */; };
+		6C8507D71E543B7600EEE9B1 /* ATEar.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C8507D61E543B7600EEE9B1 /* ATEar.m */; };
+		6C8507DD1E543C0800EEE9B1 /* CTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C8507DC1E543C0800EEE9B1 /* CTest.m */; };
+		6C8507E01E543C5300EEE9B1 /* Dtest.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C8507DF1E543C5300EEE9B1 /* Dtest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -51,6 +54,12 @@
 		5391BC2A1C0D0201005BEC2A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = CloudSearch/Base.lproj/Main.storyboard; sourceTree = SOURCE_ROOT; };
 		53E64996161E185100ACBD6E /* CloudSearch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CloudSearch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6C8507C71E5437C700EEE9B1 /* Shared2 */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Shared2; path = /Users/edmanchen/Work/iOS_macOS/iOS_macOS/OSX/Shared2; sourceTree = "<absolute>"; };
+		6C8507D51E543B7600EEE9B1 /* ATEar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ATEar.h; sourceTree = "<group>"; };
+		6C8507D61E543B7600EEE9B1 /* ATEar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ATEar.m; sourceTree = "<group>"; };
+		6C8507DB1E543C0800EEE9B1 /* CTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTest.h; sourceTree = "<group>"; };
+		6C8507DC1E543C0800EEE9B1 /* CTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTest.m; sourceTree = "<group>"; };
+		6C8507DE1E543C5300EEE9B1 /* Dtest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Dtest.h; sourceTree = SOURCE_ROOT; };
+		6C8507DF1E543C5300EEE9B1 /* Dtest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Dtest.m; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,8 +92,12 @@
 		536922311BF66BA3009771B6 /* Shared */ = {
 			isa = PBXGroup;
 			children = (
+				6C8507D51E543B7600EEE9B1 /* ATEar.h */,
+				6C8507D61E543B7600EEE9B1 /* ATEar.m */,
 				538509291C7CD3710029BA74 /* AAPLCloudDocumentsController.h */,
 				5385092A1C7CD3710029BA74 /* AAPLCloudDocumentsController.m */,
+				6C8507DB1E543C0800EEE9B1 /* CTest.h */,
+				6C8507DC1E543C0800EEE9B1 /* CTest.m */,
 			);
 			name = Shared;
 			sourceTree = "<group>";
@@ -117,6 +130,8 @@
 				53454AE517692AF400E5014B /* MyAppDelegate.m */,
 				536A57F61778EEC600C700DE /* MyViewController.h */,
 				536A57F71778EEC600C700DE /* MyViewController.m */,
+				6C8507DE1E543C5300EEE9B1 /* Dtest.h */,
+				6C8507DF1E543C5300EEE9B1 /* Dtest.m */,
 			);
 			name = Sources;
 			path = PackagedDocument;
@@ -237,9 +252,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6C8507D71E543B7600EEE9B1 /* ATEar.m in Sources */,
 				5385092B1C7CD3710029BA74 /* AAPLCloudDocumentsController.m in Sources */,
 				53454AF017692AF400E5014B /* main.m in Sources */,
+				6C8507DD1E543C0800EEE9B1 /* CTest.m in Sources */,
 				53454AF117692AF400E5014B /* MyAppDelegate.m in Sources */,
+				6C8507E01E543C5300EEE9B1 /* Dtest.m in Sources */,
 				536A57F81778EEC600C700DE /* MyViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
