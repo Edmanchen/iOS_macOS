@@ -8,7 +8,7 @@
 
 #import "AAPLCloudDocumentsController.h"
 
-////
+//////
 @interface AAPLCloudDocumentsController ()
 
 @property (nonatomic, strong) NSMetadataQuery *ubiquitousQuery;
